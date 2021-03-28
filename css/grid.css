@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    grid-template-columns: 15% 50% 35%;
+    grid-template-rows: 5% 90% 50%;
+    grid-template-areas:
+    "top-bar top-bar top-bar"
+    "camp-list loc-list img-prev"
+    "bottom-bar bottom-bar bottom-bar";
+}
+
+#sec-top-bar{grid-area: top-bar}
+#sec-camp-list{grid-area: camp-list}
+#sec-loc-list{grid-area: loc-list;}
+#bottom-bar{grid-area: bottom-bar;}

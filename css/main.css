@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+h1 {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 15px;
+  padding: 5px;
+}
+
+#sec-top-bar {
+  width: 100%;
+  display: grid;
+  grid-template-columns: inherit;
+  align-content: center;
+}
+#sec-top-bar header {
+  font-family: "Noto Sans JP", sans-serif;
+  color: white;
+}
+
+#sec-camp-list {
+  height: 100%;
+  width: 100%;
+}
+#sec-camp-list li:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#sec-camp-list li {
+  background-color: rgba(255, 255, 255, 0.7);
+  
+  margin: 2px 0px 2px 0px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  align-items: center;
+  border-bottom: 2px solid #1C6EA4;
+
+}
+
+
+.camp-progress {
+  background-color: #ffebc2;
+  padding: 10px;
+}
+.camp-name{
+   padding: 0px 0px 0px 3px;
+}
+
+#sec-loc-list {
+  height: 100%;
+  width: 100%;
+  background-color: pink;
+}
+
+#bottom-bar {
+  background-color: salmon;
+}
+
+.backg-dark-blue {
+  background-color: #00204f;
+}
+.backg-light-blue {
+  background-color: #c2daff;
+}
+
+.text-white {
+  color: white;
+}
+.text-dark-blue {
+  background-color: #00204f;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.nato {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.roboto {
+  font-family: Roboto, sans-serif;
+}
