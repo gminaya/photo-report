@@ -33,10 +33,15 @@ h2 {
 #sec-camp-list {
   height: 100%;
   width: 100%;
+  border-right: 2px solid #00204f;
+  border-left: 2px solid #00204f;
+  position: relative;
 }
 #sec-camp-list li:hover{
     background-color: rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid #00204f;
 }
+
 #sec-camp-list li {
   background-color: rgba(255, 255, 255, 0.7);
   
@@ -44,15 +49,46 @@ h2 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 500;
   display: grid;
   grid-template-columns: 80% 20%;
   align-items: center;
   border-bottom: 2px solid #1C6EA4;
+  
+
+}
+#sec-camp-list footer{
+    background-color:#c2daff ;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+#btn-add-camp{
+    width: fit-content;
+    background-color: #3D4B81;
+    color: #FFF7D6;
+    padding: 5px 7px;
+    margin: 5px auto;
+    border-radius: 5px;
+    border-bottom: 2px solid;
+}
+
+#btn-add-camp:active{
+    
+    background-color: #3D4B81;
+    border-bottom: 0px solid;
 
 }
 
-
+#sec-camp-list footer button{
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Noto Sans JP", sans-serif;
+    padding: 5px 0px;
+    background-color: #FFAF0F;
+}
 .camp-progress {
   background-color: #ffebc2;
   padding: 10px;
@@ -91,6 +127,8 @@ h2 {
 .text-right {
   text-align: right;
 }
+
+
 
 .nato {
   font-family: "Noto Sans JP", sans-serif;
